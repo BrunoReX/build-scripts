@@ -189,6 +189,7 @@ ws2_32.lib
 -   Now download the bash script to create packages in one of two ways:
     -  Type: ```wget https://raw.githubusercontent.com/BrunoReX/build-scripts/master/L-SMASH/create_packages.sh```
     -  Or download download **create_packages.sh** manually and save it to **C:\work**
+-   You may need to edit **create_packages.sh** to match your setup
 -   Now type: ```./create_packages.sh``` and wait for it to finish
 -   Go to **C:\work** and copy your newly created packages
 
