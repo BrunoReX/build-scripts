@@ -184,7 +184,7 @@ ws2_32.lib
 
 ###Creating Packages:
 
--   Go to **C:\msys2** and double click **mingw32_shell.bat**
+-   Go to **C:\msys2** and double click **msys2_shell.bat**
 -   Type: ```cd "C:\work"```
 -   Now download the bash script to create packages in one of two ways:
     -  Type: ```wget https://raw.githubusercontent.com/BrunoReX/build-scripts/master/L-SMASH/create_packages.sh```
