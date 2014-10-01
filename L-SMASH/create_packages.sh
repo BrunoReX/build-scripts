@@ -17,7 +17,7 @@ mkdir "$dist_dir"
 
 # Copying L-SMASH Files
 
-cd "$work_dir\l-smash"
+cd "$lsm_dir"
 
 lsm_hash=$(git log -1 --format="%h")
 lsm_rev=$(git rev-list HEAD | wc -l)
@@ -43,7 +43,7 @@ cp "$lsm_dir\build64\cli\timelineeditor.exe" "$lsm_dist\x64"
 
 # Copying L-SMASH Works Files
 
-cd "$work_dir\L-SMASH-Works"
+cd "$lsw_dir"
 
 lsw_hash=$(git log -1 --format="%h")
 lsw_rev=$(git rev-list HEAD | wc -l)
